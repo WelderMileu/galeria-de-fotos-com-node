@@ -1,0 +1,19 @@
+{
+	"name": "Institucional",
+	"version": "1.0.0",
+	"description": "Painel de Administrativo de Galeria de Fotos",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"license": "ISC",
+	"keywords": [],
+	"author": {
+		"name": "Welder Mileu",
+		"email": "welderfelix21@gmail.com"
+	},
+	"dependencies": {
+		"ejs": "^2.6.1",
+		"express": "^4.17.1"
+	}
+}

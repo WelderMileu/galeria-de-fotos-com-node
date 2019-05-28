@@ -1,0 +1,1 @@
+Este projeto tem como intuito fazer uma galeria de fotos do funcional

@@ -1,4 +1,4 @@
-Este um Sistema de Galeria de Fotos
+Sistema de Galeria de Fotos
 
 Estrutura
 

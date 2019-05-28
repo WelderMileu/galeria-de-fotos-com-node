@@ -1,12 +1,14 @@
 const express = require('express')
 const path = require('path')
 const app = express()
+const home = require('./routes/home')
 
 const port = process.env.PORT || 3000
 
-app.get('/',(req, res) => {
-	return res.send("Hello World!")
-}) 
+app.use(express.static(path.join('public')))
+app.set('view engine', 'ejs')
+
+app.use('/', home)
 
 app.listen(port,(error)=>{
 	const open = error?`Erro ao connectar ao servidor`

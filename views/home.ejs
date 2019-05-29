@@ -7,18 +7,23 @@
 	</head>
 	<body>	
 		<nav class="navbar-nav navbar-expand-sm bg-dark">
-			<ul class="navbar-nav container">
-				<li class="nav-item"><a href="#" class="nav-link text-light">Home</a></li>
-				<li class="nav-item"><a href="#" class="nav-link text-light">Abaut</a></li>
-				<li class="nav-item"><a href="#" class="nav-link text-light">Contact</a></li>
-				<li class="nav-item"><a href="#" class="nav-link text-light btn btn-danger">
+			<button type="button" class="navbar-toggler" data-target="#submenu" data-toggle="collapse">
+				<span>Abra aqui</span>
+			</button>
+			<div class="navbar-collapse collapse" id="submenu">
+				<ul class="navbar-nav container">
+					<li class="nav-item"><a href="#" class="nav-link text-light">Home</a></li>
+					<li class="nav-item"><a href="#" class="nav-link text-light">Abaut</a></li>
+					<li class="nav-item"><a href="#" class="nav-link text-light">Contact</a></li>
+					<li class="nav-item"><a href="#" class="nav-link text-light btn btn-danger">
 					Loguin</a>
-				</li>
-			</ul>
+					</li>
+				</ul>
+			</div>
 		</nav>
-		<div class="container mt-5">
-			<p>Adicionar uma nova Midia</p>
-			<form class="form">
+		<div class="container mt-5 card p-5 col-lg-5">
+			<p class="text-roboto">Adicionar uma nova Midia</p>
+			<form class="form mt-3">
 				<div class="input-group">
 					<div class="input-group-prepend">
 						<span class="input-group-text"><i class="fa fa-file-o"></i></span>
@@ -31,7 +36,7 @@
 						<input type="text" name="" class="form-control" placeholder="Description">
 					</div>
 				</div>
-				<div class="custom-file mt-3 col-lg-3">
+				<div class="custom-file mt-3 col-lg-5">
 					<span class="custom-file-label">File</span>
 					<input type="file" name="" class="custom-file-input">
 				</div>

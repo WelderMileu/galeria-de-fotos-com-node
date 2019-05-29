@@ -4,7 +4,7 @@
 	"description": "Galeria de Fotos com Painel Administrativo",
 	"main": "index.js",
 	"scripts": {
-		"start": "node index.js"
+		"start": "nodemon server.js"
 	},
 	"author": {
 		"name": "Welder Mileu",

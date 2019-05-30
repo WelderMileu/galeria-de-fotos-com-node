@@ -1,4 +1,4 @@
-Sistema Galeria de Fotos
+Sistema Galeria de Fotos ( Desenvolvido em Node JS )
 
 Estrutura
 

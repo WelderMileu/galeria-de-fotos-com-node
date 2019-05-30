@@ -4,4 +4,7 @@ Estrutura
 
 _ Painel Adminstrativo
 _ Sistema de Loguin
-_ Bando de dados NoSql
+_ Banco de dados NoSql
+_ Painel com as Fotos
+
+OBS: Em desenvolvimento

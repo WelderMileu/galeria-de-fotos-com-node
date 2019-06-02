@@ -6,7 +6,7 @@ const app = express()
 const cadastrar = require('./routes/cadastrar')
 const home = require('./routes/home')
 const painel = require('./routes/painel')
-const album = require('./routes/album')
+const inicial = require('./routes/inicial')
 
 const port = process.env.PORT || 3000
 
@@ -15,10 +15,10 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
-app.use('/', home)
+app.use('/', inicial)
+app.use('/home', home)
 app.use('/cadastrar', cadastrar)
 app.use('/painel', painel)
-app.use('/album', album)
 
 app.listen(port,(error)=>{
 	const open = error?`Erro ao connectar ao servidor ${port}`
